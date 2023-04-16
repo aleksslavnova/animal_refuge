@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Fredericka+the+Great&family=Roboto:wght@100;400&display=swap");
+* {
+	box-sizing: border-box;
+}
+.navigation {
+	padding-top: 20px;
+}
+.wrapper {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	color: #152d20;
+}
+.flex {
+	display: flex;
+}
+.textBox {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.firstBox {
+	display: flex;
+	background-image: url("./images/image-3.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: local;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 75vh;
+}
+
+.fontText {
+	font-family: "Fredericka the Great";
+	font-weight: 100;
+	font-size: 100px;
+	color: #fcfcfc;
+	line-height: 117px;
+	max-width: 400px;
+	text-align: right;
+	margin-right: 20px;
+}
+a {
+	color: white;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+a:hover {
+	color: purple;
+}
+
+a:active {
+	color: black;
+}
+.secondBox {
+	background-color: #152d20;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.secondBoxText p {
+	font-size: 17px;
+	font-family: "Roboto";
+	font-weight: 100;
+	color: white;
+	margin-top: 5px;
+}
+.secondBoxText h1 {
+	font-size: 51px;
+	font-family: "Fredericka the Great";
+	color: white;
+	font-weight: 80;
+	margin: 0;
+}
+.secondBoxImg {
+	margin-right: 25px;
+}
+
+.secondBoxImg img {
+	height: 100%;
+	width: 100%;
+}
+.btn {
+	background-color: white;
+	cursor: pointer;
+	padding: 15px;
+	font-family: "Roboto";
+	text-transform: uppercase;
+	border: none;
+}
+.thirdBox {
+	background-color: #c3d3cb;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.thirdBox .flex {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.thirdBox h1 {
+	color: gray;
+	font-size: 49px;
+	margin: 0px;
+	max-width: none;
+	text-align: center;
+}
+.thirdBox img {
+	width: 250px;
+}
+
+.textIcons {
+	background-color: #152d20;
+	font-size: 30px;
+	color: white;
+	font-family: "CormorantGaramond";
+	font-weight: 80;
+	text-transform: uppercase;
+	text-align: center;
+	justify-content: space-between;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.textIcons .box {
+	width: 250px;
+}
+.box p {
+	margin: 0;
+}
+
+.fifthBox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.textFifthBox h1 {
+	font-size: 35px;
+	font-family: "Fredericka the Great";
+	color: #c3d3cb;
+	font-weight: 80;
+}
+.textFifthBox p {
+	font-size: 20px;
+	font-family: "Roboto";
+	color: white;
+	font-weight: 29;
+}
+.textFifthBox {
+	background-color: black;
+	width: 50%;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.imageFifthBox {
+	width: 50%;
+}
+
+.imageFifthBox img {
+	height: 100%;
+	width: 100%;
+}
+#btn2 {
+	background-color: #152d20;
+	color: white;
+}
+
+#btn3 {
+	background-color: black;
+	color: white;
+}
+
+.sixBox {
+	display: flex;
+	background-color: #152d20;
+	padding: 100px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.sixBox #menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.form {
+	text-align: center;
+}
+.form p,
+h2 {
+	color: white;
+	text-decoration: none;
+	font-family: "Roboto";
+	font-weight: 80;
+}
+.form h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#openClose {
+	display: none;
+}
